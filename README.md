@@ -1,4 +1,4 @@
-# 🎂 Pastelería Dulce Sabo Tentación - Sitio Web
+# 🎂 Pastelería Dulce Tentación - Sitio Web
 
 ## 🍰 Descripción del Proyecto
 **Dulce Tentación** es una página web responsive diseñada para promocionar una pastelería moderna, ofreciendo postres personalizados, tortas, cupcakes y más. El sitio brinda una experiencia visual agradable, información clara y canales de contacto directo para realizar pedidos.
@@ -6,8 +6,8 @@
 ---
 
 ## 🔗 Vista en Vivo
-[👉 Ver sitio web]()  
-*(Reemplazar si cambia el enlace del proyecto de pastelería)*
+()  
+
 
 ---
 
