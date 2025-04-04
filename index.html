@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulce Tentación - Pastelería Artesanal Premium</title>
+    <!-- Meta tags para WhatsApp -->
+    <meta property="og:title" content="Dulce Tentación - Pastelería Artesanal">
+    <meta property="og:description" content="Descubre nuestros postres premium con recetas exclusivas">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1587314168485-3236d6710814?ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS Personalizado -->
+    <style>
+        .btn-whatsapp {
+            background-color: #25D366;
+            color: white;
+            transition: all 0.3s ease;
+        }
+        .btn-whatsapp:hover {
+            background-color: #128C7E;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1587314168485-3236d6710814?ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <i class="fas fa-birthday-cake me-2"></i>Dulce Tentación
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#productos">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#especialidades">Especialidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonios">Testimonios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+                <a href="https://wa.me/51931468971?text=Hola%20estoy%20interesado%20en%20sus%20pasteles" 
+                   class="btn btn-whatsapp ms-lg-3"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                   <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero text-white py-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4">
+                    <h1 class="display-4 fw-bold mb-3">¡Disfruta del <span class="text-danger">sabor</span> en cada bocado!</h1>
+                    <p class="lead mb-4">Pasteles artesanales de alta calidad. Entrega a domicilio disponible.</p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="#productos" class="btn btn-danger btn-lg px-4">
+                            <i class="fas fa-cookie-bite me-2"></i>Ver Productos
+                        </a>
+                        <a href="https://wa.me/51931468971?text=Hola%20quiero%20cotizar%20un%20pastel" 
+                           class="btn btn-whatsapp btn-lg px-4"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                           <i class="fab fa-whatsapp me-2"></i>Cotizar por WhatsApp
+                        </a>
+                    </div>
+                    <div class="mt-3">
+                        <p class="small"><i class="fas fa-medal text-warning me-2"></i>Ingredientes Premium</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="https://images.unsplash.com/photo-1587314168485-3236d6710814?ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80" alt="Pastel de chocolate" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección Productos -->
+    <section id="productos" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Nuestros Productos Destacados</h2>
+            <div class="row g-4">
+
+                 <!-- Producto 1 -->
+                 <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-2">OFERTA</span>
+                        <img src="https://caudesucre.com/wp-content/uploads/2017/05/bizcocho_sin_harina-11.jpg" class="card-img-top" alt="Bizcocho de Arándanos">
+                        <div class="card-body">
+                            <h5 class="card-title">Bizcocho de Arándanos</h5>
+                            <p class="card-text">Biscochuelo suave a base de Arándanos y crema dulce sin harina.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fw-bold text-danger">$16.99 <small class="text-muted text-decoration-line-through">$22.99</small></span>
+                                <a href="https://wa.me/51931468971?text=Hola%20quiero%20informacion%20sobre%20el%20Bizcocho%20de%20Arándanos" 
+                                   class="btn btn-sm btn-outline-danger"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                   <i class="fab fa-whatsapp me-1"></i>Consultar
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Producto 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <span class="badge bg-danger position-absolute top-0 end-0 m-2">NUEVO</span>
+                        <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80" class="card-img-top" alt="Tarta de Chocolate">
+                        <div class="card-body">
+                            <h5 class="card-title">Tarta de Frutos Rojos</h5>
+                            <p class="card-text">Frutos Rojos premium, ganache de trufa y base de galleta de mantequilla.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fw-bold text-danger">$15.99</span>
+                                <a href="https://wa.me/51931468971?text=Hola%20quiero%20informacion%20sobre%20la%20Tarta%20de%20Frutos%20Rojos" 
+                                   class="btn btn-sm btn-outline-danger"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                   <i class="fab fa-whatsapp me-1"></i>Consultar
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+               
+                
+                <!-- Producto 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1599785209707-a456fc1337bb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1472&q=80" class="card-img-top" alt="Macarons Surtidos">
+                        <div class="card-body">
+                            <h5 class="card-title">Macarons Surtidos</h5>
+                            <p class="card-text">Caja de 12 unidades con sabores variados, elaborados con almendra italiana.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fw-bold text-danger">$12.99</span>
+                                <a href="https://wa.me/51931468971?text=Hola%20quiero%20informacion%20sobre%20los%20Macarons%20Surtidos" 
+                                   class="btn btn-sm btn-outline-danger"
+                                   target="_blank"
+                                   rel="noopener noreferrer">
+                                   <i class="fab fa-whatsapp me-1"></i>Consultar
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Especialidades -->
+    <section id="especialidades" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Características Especiales</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="text-center p-4 border rounded-3 h-100">
+                        <i class="fas fa-leaf text-danger fs-1 mb-3"></i>
+                        <h5>Ingredientes Naturales</h5>
+                        <p class="text-muted">Utilizamos sólo productos frescos sin conservantes ni colorantes artificiales.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="text-center p-4 border rounded-3 h-100">
+                        <i class="fas fa-wheat-awn text-danger fs-1 mb-3"></i>
+                        <h5>Opciones Sin Gluten</h5>
+                        <p class="text-muted">Variedad de pasteles y postres para personas con intolerancia al gluten.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="text-center p-4 border rounded-3 h-100">
+                        <i class="fas fa-gift text-danger fs-1 mb-3"></i>
+                        <h5>Personalización</h5>
+                        <p class="text-muted">Diseños personalizados para cumpleaños, bodas y eventos especiales.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="text-center p-4 border rounded-3 h-100">
+                        <i class="fas fa-truck text-danger fs-1 mb-3"></i>
+                        <h5>Entrega a Domicilio</h5>
+                        <p class="text-muted">Servicio de entrega en toda la ciudad con sistema de refrigeración especial.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Testimonios -->
+    <section id="testimonios" class="py-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Lo que dicen nuestros clientes</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="p-4 bg-secondary bg-opacity-25 rounded-3 h-100">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="https://randomuser.me/api/portraits/women/32.jpg" class="rounded-circle me-3" width="60" alt="Cliente">
+                            <div>
+                                <h6 class="mb-0">María Fernández</h6>
+                                <small class="text-warning">★★★★★</small>
+                            </div>
+                        </div>
+                        <p>"El pastel de chocolate fue espectacular. Todos en la fiesta quedaron encantados con el sabor."</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-4 bg-secondary bg-opacity-25 rounded-3 h-100">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="https://randomuser.me/api/portraits/men/44.jpg" class="rounded-circle me-3" width="60" alt="Cliente">
+                            <div>
+                                <h6 class="mb-0">Pedro Alonso</h6>
+                                <small class="text-warning">★★★★★</small>
+                            </div>
+                        </div>
+                        <p>"Los macarons son perfectos para reuniones. La atención personalizada hizo toda la diferencia."</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-4 bg-secondary bg-opacity-25 rounded-3 h-100">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="https://randomuser.me/api/portraits/women/75.jpg" class="rounded-circle me-3" width="60" alt="Cliente">
+                            <div>
+                                <h6 class="mb-0">Laura Gutiérrez</h6>
+                                <small class="text-warning">★★★★☆</small>
+                            </div>
+                        </div>
+                        <p>"Excelente calidad y presentación. Me encantaría que ofrecieran más opciones veganas."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow">
+                        <div class="card-body p-5">
+                            <h2 class="text-center mb-4 fw-bold">Contáctanos</h2>
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <i class="fas fa-map-marker-alt text-danger fs-4 me-3"></i>
+                                        <div>
+                                            <h6 class="mb-0">Dirección</h6>
+                                            <small class="text-muted">Av. Las Delicias 456, Lima</small>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center mb-3">
+                                        <i class="fas fa-phone-alt text-danger fs-4 me-3"></i>
+                                        <div>
+                                            <h6 class="mb-0">Teléfono</h6>
+                                            <small class="text-muted">(01) 555-6789</small>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <i class="fab fa-whatsapp text-danger fs-4 me-3"></i>
+                                        <div>
+                                            <h6 class="mb-0">WhatsApp</h6>
+                                            <small class="text-muted">931 468 971</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <form>
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" placeholder="Nombre" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <input type="email" class="form-control" placeholder="Email" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <input type="tel" class="form-control" placeholder="Teléfono" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <textarea class="form-control" rows="3" placeholder="Mensaje" required></textarea>
+                                        </div>
+                                        <button type="submit" class="btn btn-danger w-100">Enviar Mensaje</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp flotante -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/51921746994?text=Hola%20estoy%20interesado%20en%20sus%20pasteles" 
+           class="btn btn-whatsapp btn-lg rounded-pill shadow"
+           target="_blank"
+           rel="noopener noreferrer">
+           <i class="fab fa-whatsapp me-2"></i>Cotizar
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5><i class="fas fa-birthday-cake me-2"></i>Dulce Tentación</h5>
+                    <p class="small text-muted">Pastelería artesanal con ingredientes premium y recetas exclusivas.</p>
+                </div>
+                <div class="col-md-4">
+                    <h6>Navegación Rápida</h6>
+                    <ul class="list-unstyled small">
+                        <li><a href="#productos" class="text-decoration-none text-muted"><i class="fas fa-chevron-right me-1"></i> Productos</a></li>
+                        <li><a href="#especialidades" class="text-decoration-none text-muted"><i class="fas fa-chevron-right me-1"></i> Especialidades</a></li>
+                        <li><a href="#testimonios" class="text-decoration-none text-muted"><i class="fas fa-chevron-right me-1"></i> Testimonios</a></li>
+                        <li><a href="#contacto" class="text-decoration-none text-muted"><i class="fas fa-chevron-right me-1"></i> Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h6>Contacto</h6>
+                    <ul class="list-unstyled small">
+                        <li class="text-muted"><i class="fas fa-map-marker-alt me-2"></i> Av. Las Delicias 456, Lima</li>
+                        <li class="text-muted"><i class="fas fa-phone-alt me-2"></i> (01) 555-6789</li>
+                        <li class="text-muted"><i class="fab fa-whatsapp me-2"></i> 921 746 994</li>
+                        <li class="text-muted"><i class="fas fa-envelope me-2"></i> info@dulcetentacion.com</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center small text-muted">
+                © 2023 Dulce Tentación. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JS Personalizado -->
+    <script>
+        // Animación para el botón de WhatsApp
+        document.querySelector('.whatsapp-float a').addEventListener('mouseover', function() {
+            this.style.transform = 'scale(1.1)';
+        });
+        document.querySelector('.whatsapp-float a').addEventListener('mouseout', function() {
+            this.style.transform = 'scale(1)';
+        });
+        
+        // Validación básica del formulario
+        document.querySelector('form').addEventListener('submit', function(e) {
+            const inputs = this.querySelectorAll('input, textarea');
+            let isValid = true;
+            
+            inputs.forEach(input => {
+                if (!input.value.trim()) {
+                    input.classList.add('is-invalid');
+                    isValid = false;
+                } else {
+                    input.classList.remove('is-invalid');
+                }
+            });
+            
+            if (!isValid) {
+                e.preventDefault();
+                alert('Por favor complete todos los campos');
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+/* Estilos generales */
+:root {
+    --whatsapp: #25D366;
+    --primary: #000000;
+    --secondary: #121213;
+    --accent: #ffc107;
+}
+.custom-red {
+    color: red; /* Cambia a cualquier tono de rojo si lo prefieres */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 56px;
+}
+
+/* Intro Section */
+.intro-section {
+    font-size: 0.9rem;
+    background-color: #111;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(8, 8, 8, 0.7), rgba(17, 0, 0, 0.7)), 
+                url('https://images.unsplash.com/photo-1591637333184-19aa84b3e01f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 0;
+}
+
+/* Botones de WhatsApp */
+.btn-success, .btn-whatsapp {
+    background-color: var(--whatsapp);
+    border-color: var(--whatsapp);
+}
+
+.btn-success:hover, .btn-whatsapp:hover {
+    background-color: #128C7E;
+    border-color: #128C7E;
+}
+
+/* Botón flotante de WhatsApp */
+.btn-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+/* Efecto hover para las cards */
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Ajustes para móviles */
+@media (max-width: 768px) {
+    .display-4 {
+        font-size: 2.5rem;
+    }
+    
+    .hero {
+        padding: 2rem 0;
+        text-align: center;
+    }
+    
+    .footer .col-lg-4 {
+        margin-bottom: 2rem;
+    }
+}
+
+/* Estilos para el footer */
+.bg-black {
+    background-color: #000;
+}
+
+.footer a:hover {
+    color: var(--accent) !important;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.1);
+    transition: all 0.3s;
+}
+
+.social-icons a:hover {
+    background-color: var(--accent);
+    color: #000 !important;
+}
+
+/* Mejorar contraste de botones de WhatsApp */
+.btn-whatsapp, .btn-whatsapp:hover {
+    color: rgb(8, 255, 28); /* Para asegurar visibilidad */
+}
+<style>
+.btn-whatsapp {
+    background-color: #25D366;
+    color: white;
+    transition: all 0.3s ease;
+}
+.btn-whatsapp:hover {
+    background-color: #128C7E;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1558981806-ec527fa84c39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+    background-size: cover;
+    background-position: center;
+}
+.whatsapp-float {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 100;
+}
