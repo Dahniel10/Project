@@ -12,7 +12,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 document.getElementById('contactForm')?.addEventListener('submit', function(e) {
     e.preventDefault();
     
-    // Validar campos
     const nombre = this.querySelector('input[type="text"]').value.trim();
     const email = this.querySelector('input[type="email"]').value.trim();
     const telefono = this.querySelector('input[type="tel"]').value.trim();
