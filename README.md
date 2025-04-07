@@ -1,55 +1,55 @@
-# 🌐 **DigiTech Solutions** - Página Web Oficial
+# 💻 DigiTech Solutions - Sitio Web
 
-## 📌 **Descripción del Proyecto**
-**DigiTech Solutions** es un sitio web corporativo diseñado para promocionar nuestras soluciones tecnológicas y servicios digitales avanzados. A través de un diseño moderno y funcional, buscamos ofrecer una experiencia visual impecable y facilitar la interacción con nuestros clientes mediante canales de contacto directos, como WhatsApp. El sitio está optimizado para todos los dispositivos, asegurando accesibilidad y usabilidad para todos nuestros usuarios.
-
----
-
-## 🔗 **Vista en Vivo**
-
-Accede al sitio web en vivo a través del siguiente enlace:  
-[Visitar DigiTech Solutions](https://dahniel10.github.io/Project/)
+## 🚀 Descripción del Proyecto
+**DigiTech Solutions** es una página web moderna y profesional que promociona software y herramientas digitales premium, diseñadas para optimizar la productividad personal y empresarial. El sitio es completamente responsive, brindando una experiencia visual fluida, además de permitir la interacción directa con los usuarios a través de enlaces de WhatsApp para consultas y cotizaciones.
 
 ---
 
-## ✅ **Características Clave**
+## 🔗 Vista en Vivo
 
-- 🌟 **Diseño Responsive:** Adaptación automática a todo tipo de dispositivos con enfoque **mobile-first**.
-- 📊 **Catálogo de Productos:** Visualización clara de nuestras herramientas y soluciones con descripciones detalladas y opciones de consulta.
-- 📱 **Enlace Directo a WhatsApp:** Facilita el contacto instantáneo con nuestro equipo para consultas o cotizaciones personalizadas.
-- 🎨 **Uso de Font Awesome:** Iconos modernos y funcionales para mejorar la experiencia visual y la navegación.
-- 🔍 **Interacción Intuitiva:** Navegación clara y ágil con un diseño limpio y profesional.
-- 🛠️ **Soporte Técnico:** Opción de obtener ayuda inmediata a través de nuestra plataforma de contacto.
+(https://dahniel10.github.io/Project/)
 
 ---
 
-## 🛠️ **Tecnologías Utilizadas**
+## ✅ Características Clave
 
-| **Tecnología**  | **Propósito**                             |
-|-----------------|-------------------------------------------|
-| **HTML5**       | Estructura semántica robusta y accesible  |
-| **Bootstrap 5** | Framework para un diseño responsive y moderno |
-| **CSS3**        | Estilos personalizados adaptados a todos los dispositivos |
-| **Font Awesome**| Iconografía visual interactiva y funcional |
-| **JavaScript**  | Interactividad y validación de formularios |
-
----
-
-## 🗂️ **Estructura del Sitio**
-
-- **Navbar:** Menú superior con enlaces directos a las secciones principales del sitio (Productos, Características, Testimonios, Contacto).
-- **Header / Banner:** Imagen destacada con un mensaje de bienvenida que invita a la acción y a la exploración.
-- **Productos:** Catálogo visual con descripciones detalladas, precios y opciones para contacto o cotización.
-- **Características Especiales:** Explicación de los beneficios clave de nuestros productos y servicios.
-- **Testimonios:** Opiniones de clientes satisfechos, con testimonios reales que validan nuestra propuesta de valor.
-- **Formulario de Contacto:** Formulario de contacto para consultas generales o solicitudes específicas.
-- **Footer:** Información adicional sobre nuestra empresa, enlaces rápidos, redes sociales y datos de contacto.
+- ✔️ Diseño responsive con enfoque **mobile-first**
+- ✔️ Catálogo visual de productos digitales (software, herramientas y suites)
+- ✔️ Enlace directo a **WhatsApp para cotizar o consultar**
+- ✔️ Uso de **Font Awesome** para íconos funcionales
+- ✔️ Secciones claras: Productos, Características, Testimonios y Contacto
+- ✔️ Botón flotante de WhatsApp para contacto rápido
+- ✔️ Soporte técnico disponible para consultas
 
 ---
 
-## 💻 **Instrucciones de Instalación Local**
+## 🛠️ Tecnologías Utilizadas
 
-1. Clona el repositorio en tu máquina local:
+| Tecnología     | Uso                                     |
+|----------------|----------------------------------------|
+| HTML5          | Estructura semántica del sitio         |
+| Bootstrap 5    | Sistema de diseño responsive y accesible|
+| CSS3           | Estilos personalizados y responsivos   |
+| Font Awesome   | Íconos decorativos y funcionales       |
+| JavaScript     | Interacción básica y validación de formularios |
+
+---
+
+## 🗂️ Estructura del Sitio
+
+- **Navbar:** Menú superior con enlaces a secciones del sitio (Productos, Características, Testimonios, Contacto)
+- **Header / Banner:** Imagen destacada con mensaje de bienvenida y botones de acción
+- **Productos:** Catálogo visual de productos con precios y enlaces para consultas
+- **Características Especiales:** Beneficios y funcionalidades de los productos y servicios
+- **Testimonios:** Opiniones de clientes satisfechos con los productos
+- **Formulario de Contacto:** Formulario para consultas generales y contacto directo
+- **Footer:** Información de contacto, redes sociales y enlaces rápidos
+
+---
+
+## 💻 Instalación Local
+
+1. Clona el repositorio:
 
 ```bash
 git clone https://github.com/Dahniel10/Project.git
